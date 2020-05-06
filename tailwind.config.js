@@ -2,6 +2,13 @@ let defaultConfig = require('tailwindcss/defaultConfig')
 
 module.exports = {
   corePlugins: {
+    //1.3.0
+    space: false,
+    divideColor: false,
+    divideWidth: false,
+    divideOpacity: false,
+    
+    //1.2.0
     container: false,
     appearance: false,
     backgroundAttachment: true,
